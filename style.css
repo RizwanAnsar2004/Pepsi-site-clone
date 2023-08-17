@@ -49,6 +49,13 @@
     color: rgb(255, 0, 0);
     transition: 0.25s;
 }
+.navleft #log:hover {
+    transform-origin: center;
+    transform: rotate(360deg);
+    
+    transition: transform 0.25s ease;
+}
+
 
 .navleft ul li select {
     background-color: transparent;
@@ -88,6 +95,7 @@
     color: #0065c3;
     transition: 0.25s;
 }
+
 
 /* ********************************************************************************* */
 
